@@ -9,7 +9,7 @@ export default defineConfig({
     sourcemap: true,
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "mylib",
+      name: "tokens",
       formats: ["es", "cjs", "umd", "iife"],
       fileName: (format) => `index.${format}.js`,
     },
